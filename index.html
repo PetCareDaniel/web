@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/logo_petcare_ventana.png">
+    <style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff ;
+    font-family: "Lucida Sans", Arial, Helvetica, sans-serif;
+}
+header {
+    font-family: sans-serif;
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    background-color: #0D8DFF;
+    align-items: center;
+    padding: 10px;
+ 
+    padding-right: 100px;
+    padding-left: 10px;
+}
+.logo_solo img {
+    width: 290px;
+    height: 60px;
+    margin: 7px 0 20px 0;
+}
+
+.barra_navegacion{
+           
+            width: 100%;
+            height: 100%;
+            
+        }
+nav{
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+            font-weight: bold;
+        }
+
+h1{
+            color: black;
+  font-size: 45px;
+}
+        
+ul, li {
+        display: inline-block;
+        padding: 0 20px;
+        }
+
+a{
+        color: white;
+        text-decoration: none;
+        }
+a:hover{
+        color: yellow;
+        }
+
+
+#titulo img {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 500px;
+}        
+.contenedorinicial1{
+
+    background: #0D8DFF;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedorinicial1 img {
+    
+    height: 800px;
+    width: 1200px;
+
+}
+.contenedorinicial1 h1{
+    margin: 20px 0 20px 200px;
+    color: #ffffff;
+
+}
+.bienvenido h1 {
+    margin-top: 200px;
+}
+.contenedorinicial2{
+    background: #ffffff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.contenedorinicial2 h2{
+color: #0D8DFF;
+margin: 70px;
+text-align: center;
+}
+.contenedorinicial2 p {
+color: rgb(105, 105, 105);
+text-align: center;
+margin: 50px 250px 20px 250px;
+}
+.contenedor_padre{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 400px;
+    background-color: #ffffff;
+    border-top: 20px solid  #ffffff; 
+    border-bottom: 20px solid  #ffffff; 
+   
+}
+button {
+background-color:  #0D8DFF;
+border: 0;
+border-radius: 50%;
+
+
+
+}
+.consultas {
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+   
+    background-color: #0D8DFF;
+    position: static;
+    
+}
+.consultas img {
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.consultas button img {
+    height: 50px;
+    width: 50px;
+}
+.consultas h3{
+    color: #ffffff;
+    margin-top: 30px;
+}
+.consultas p {
+   color: #ffffff;
+   margin-left: 62px;
+   margin-top: 30px;
+   width: 50%;
+}
+
+
+.vacunas {
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+   
+    background-color: #0D8DFF;
+    position: static;
+    
+}
+.vacunas img {
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.vacunas button img {
+    height: 50px;
+    width: 50px;
+}
+.vacunas h3{
+    color: #ffffff;
+    margin-top: 30px;
+}
+.vacunas p {
+   color: #ffffff;
+   margin-left: 62px;
+   margin-top: 30px;
+   width: 50%;
+}
+
+.mas_servicios {
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+   
+    background-color: #0D8DFF;
+    position: static;
+    
+}
+.mas_servicios img {
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.mas_servicios button img {
+    height: 50px;
+    width: 50px;
+}
+.mas_servicios h3{
+    color: #ffffff;
+    margin-top: 30px;
+   }
+.mas_servicios p {
+   color: #ffffff;
+   margin-left: 62px;
+   margin-top: 30px;
+   width: 50%;
+}
+
+
+
+
+
+.contenedor_padre2 {
+display: flex;
+justify-content: center;
+background:  #0D8DFF;
+height: 370px;
+
+}
+
+.contenedor_padre2 img {
+
+margin-top: 20px;
+height: 350px;
+
+}
+.footer {
+   
+    text-align: center;
+    
+}
+.footer1 {
+background-color: #ffffff;
+padding: 3em 0;
+
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+    }
+.footer1 a{
+padding: 10px 15px;
+    color: #0D8DFF;
+   
+        
+     }
+.parrafo_footer p{
+padding: 1em;
+color: rgb(87, 87, 87);
+ 
+}
+.parrafo_footer {
+padding: 1em;
+background: #ffffff;
+margin-bottom: 30px;
+}
+.footer1 img {
+    width: 290px;
+    height: 60px;
+}
+.footer2 {
+    word-spacing: 20px; 
+    height: 60px;
+   
+}
+.footer2 a{
+    color: #0D8DFF ;
+}
+.footer2 a:hover{
+    color: #FFDA00;
+}
+.iconos_footer img{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.header2 {
+    
+    width: 1500px;
+    height: 320px;
+    margin: 20px auto;
+    position: relative;
+    padding-left: 100px;
+    top: -50px;
+    overflow: hidden;
+    justify-content: center;
+    background-repeat: no-repeat;
+    perspective: 300px;
+    perspective-origin: 75% 50%;
+    background-color: #ffffff;
+}
+.header2 img {
+    height: 350px;
+    width: 1260px;
+}
+#fondo {
+    width: 260px;
+    height: 220px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    animation: fondo 18s infinite;
+}
+
+
+
+@keyframes fondo {
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    50% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+    </style>
+    <title>PetCare - Inicio</title>
+</head>
+
+
+<body>
+        <div class="loader"> 
+      <div></div>
+      <div></div>
+    </div>
+    <header>
+    
+        <nav>
+
+         <div class="logo_solo">
+    <a href="index.html"><img src="img/Logo_menu.png" alt="Logo de PetCare"></a>
+    </div>
+        
+             <div class="barra_navegacion"> 
+             <ul>
+                <li class="submenu">
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="equipo_medico.html">Equipo Medico</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+            </ul>
+            </div> 
+           
+        </nav>
+        </div>
+</div>
+    </header>
+
+
+<div class="contenedorinicial1">
+    <div id="titulo">
+        <div class="bienvenido">
+        <h1>¡Bienvenido!</h1>
+        </div>
+        <img src="img/Logo_menu.png" alt="Logo de PetCare">
+        <h1><em>Tu aliado en salud animal</em></h1>
+    </div>
+    <img src="img/perros del inicio.png" alt="Perro y gato">
+</div>
+<div class="contenedorinicial2">
+    <div id="titulo2">
+    <h2>¿Quienes Somos?</h2>
+    <p>En PetCare nos enfocamos en brindar atencion de alta calidad y un ambiente amigable para las mascotas como para sus dueños. Nuestra clinica ofrece una gram gama de servicios para tus amigos peludos.</p>
+    <h2>Nuestros Servicios</h2>
+    </div>
+</div>
+ <div class="contenedor_padre">
+    
+        <div class="consultas">
+            <img src="img/iconservicio_1.png" alt="Consultas">
+            <h3>Consultas</h3>
+            <p>Más Información aquí</p>
+            <button>
+                
+            <a href="consultas.html"><img src="img/boton_flecha.png"></a>
+            </button>
+        </div >
+        
+        <div class="vacunas">
+            <img src="img/iconservicio_2.png" alt="Vacunación">
+            <h3>Vacunación</h3>
+            <p>Más Información aquí</p>
+            <button>
+            <a href="vacunas.html"><img src="img/boton_flecha.png"></a>
+            </button>
+        </div>
+        <div class="mas_servicios">
+            <img src="img/icon_mas_servicios.png" alt="Más Servicios">
+            <h3>Más Servicios</h3>
+            <p>Más Información aquí</p>
+            <button>
+                <a href="servicios.html"><img src="img/boton_flecha.png"></a>
+                </button>
+        </div>
+ </div>
+ <header class="header2">
+    <div> 
+        <img src="img/Petcare_banner1.png" alt="">
+        <div id="fondo">
+            <div> 
+                <img src="img/Petcare_banner2.png" alt="">
+            </div>
+      
+</header>
+<div class="contenedor_padre2">
+<div>
+<img src="img/perros.png" alt="mascotas">
+</div>
+</div>
+
+<footer>
+<div class="footer">
+<div class="footer1">
+    <a href="index.html"><img src="img/Logo_footer.png" alt="Logo de PetCare"></a>
+</div>
+<div class="footer2">
+    
+    <a href="servicios.html">Servicios</a>
+    <a href="equipo_medico.html">Equipo_Medico</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="testimonios.html">Testimonios</a>
+</div>
+<div class="iconos_footer">
+<a href="#"><img src="img/instagram_icon.png" alt="instagram" ></a>
+<a href="#"><img src="img/whatsapp_icon.png" alt="whatsapp"></a>
+<a href="#"><img src="img/facebook_icon.png" alt="facebook"></a>
+</div>
+<div class="parrafo_footer">
+    <p>©2024 PetCare - Todos los derechos de autor reservados - Sitio creado por "Daniel Quintero"</p>
+</div>
+</div>
+
+</footer>
+
+
+
+
+</body>
+</html>

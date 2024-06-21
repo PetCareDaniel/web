@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/logo_petcare_ventana.png">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff ;
+    font-family: "Lucida Sans", Arial, Helvetica, sans-serif;
+}
+header {
+    font-family: sans-serif;
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    background-color: #0D8DFF;
+    align-items: center;
+    padding: 10px;
+ 
+    padding-right: 100px;
+    padding-left: 10px;
+}
+.logo_solo img {
+    width: 290px;
+    height: 60px;
+    margin: 7px 0 20px 0;
+}
+
+.barra_navegacion{
+           
+            width: 100%;
+            height: 100%;
+            
+        }
+nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+            font-weight: bold;
+        }
+h1{
+            color: black;
+  font-size: 45px;
+}
+        
+ul, li {
+        display: inline-block;
+        padding: 0 20px;
+        }
+
+a{
+        color: white;
+        text-decoration: none;
+        }
+a:hover{
+        color: yellow;
+        }
+        .footer {
+   
+   text-align: center;
+   
+}
+.contenedorinicial2 h1{
+color: #0D8DFF;
+margin: 70px;
+text-align: center;
+font-size: 80px;
+}
+.contenedor_padre{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+    background-color: #ffffff;
+    border-top: 20px solid  #ffffff; 
+    border-bottom: 20px solid  #ffffff; 
+   
+}
+button {
+background-color:  #0D8DFF;
+border: 0;
+border-radius: 50%;
+
+
+
+}
+.consultas {
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+   
+    background-color: #0D8DFF;
+    position: static;
+    
+}
+.consultas img {
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.consultas button img {
+    height: 50px;
+    width: 50px;
+}
+.consultas h3{
+    color: #ffffff;
+    margin-top: 30px;
+}
+.consultas p {
+   color: #ffffff;
+   margin-left: 62px;
+   margin-top: 30px;
+   width: 50%;
+}
+
+
+.vacunas {
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+   
+    background-color: #0D8DFF;
+    position: static;
+    
+}
+.vacunas img {
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.vacunas button img {
+    height: 50px;
+    width: 50px;
+}
+.vacunas h3{
+    color: #ffffff;
+    margin-top: 30px;
+}
+.vacunas p {
+   color: #ffffff;
+   margin-left: 62px;
+   margin-top: 30px;
+   width: 50%;
+}
+
+.cirugias_menores {
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+   
+    background-color: #0D8DFF;
+    position: static;
+    
+}
+.cirugias_menores img {
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.cirugias_menores button img {
+    height: 50px;
+    width: 50px;
+}
+.cirugias_menores h3{
+    color: #ffffff;
+    margin-top: 30px;
+   }
+.cirugias_menores p {
+   color: #ffffff;
+   margin-left: 62px;
+   margin-top: 30px;
+   width: 50%;
+}
+
+.cuidado_dental {
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+   
+    background-color: #0D8DFF;
+    position: static;
+    
+}
+.cuidado_dental img {
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.cuidado_dental button img {
+    height: 50px;
+    width: 50px;
+}
+.cuidado_dental h3{
+    color: #ffffff;
+    margin-top: 30px;
+}
+.cuidado_dental p {
+   color: #ffffff;
+   margin-left: 62px;
+   margin-top: 30px;
+   width: 50%;
+}
+
+.productos {
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+   
+    background-color: #0D8DFF;
+    position: static;
+    
+}
+.productos img {
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+.productos button img {
+    height: 50px;
+    width: 50px;
+}
+.productos h3{
+    color: #ffffff;
+    margin-top: 30px;
+}
+.productos p {
+   color: #ffffff;
+   margin-left: 62px;
+   margin-top: 30px;
+   width: 50%;
+}
+
+
+
+.contenedor_padre2 {
+display: flex;
+justify-content: center;
+background:  #0D8DFF;
+height: 370px;
+
+}
+
+.contenedor_padre2 img {
+
+margin-top: 20px;
+height: 350px;
+
+}
+.footer1 {
+background-color: #ffffff;
+padding: 3em 0;
+
+       text-align: center;
+       bottom: 0;
+       width: 100%;
+   }
+.footer1 a{
+padding: 10px 15px;
+   color: #0D8DFF;
+  
+       
+    }
+.parrafo_footer p{
+padding: 1em;
+color: rgb(87, 87, 87);
+
+}
+.parrafo_footer {
+padding: 1em;
+background: #ffffff;
+margin-bottom: 30px;
+}
+.footer1 img {
+   width: 290px;
+   height: 60px;
+}
+.footer2 {
+   word-spacing: 20px; 
+   height: 60px;
+  
+}
+.footer2 a{
+   color: #0D8DFF ;
+}
+.footer2 a:hover{
+   color: #FFDA00;
+}
+.iconos_footer img{
+   width: 50px;
+   height: 50px;
+   margin-left: 15px;
+   margin-right: 15px;
+
+}
+
+
+</style>
+<title>PetCare - Servicios</title>
+</head>
+
+
+<body>
+    <header>
+    
+        <nav>
+
+         <div class="logo_solo">
+    <a href="index.html"><img src="img/Logo_menu.png" alt="Logo de PetCare"></a>
+    </div>
+        
+             <div class="barra_navegacion"> 
+             <ul>
+                <li class="submenu">
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="equipo_medico.html">Equipo Medico</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+            </ul>
+            </div> 
+           
+        </nav>
+        </div>
+</div>
+    </header>
+<div class="contenedorinicial2">
+        <div id="titulo2">
+        <h1>Servicios</h1>
+        </div>
+</div>
+    <div class="contenedor_padre">
+    
+        <div class="consultas">
+            <img src="img/iconservicio_1.png" alt="Consultas">
+            <h3>Consultas</h3>
+            <p>Más Información aquí</p>
+            <button>
+                
+            <a href="consultas.html"><img src="img/boton_flecha.png"></a>
+            </button>
+        </div >
+        
+        <div class="vacunas">
+            <img src="img/iconservicio_2.png" alt="Vacunación">
+            <h3>Vacunación</h3>
+            <p>Más Información aquí</p>
+            <button>
+            <a href="vacunas.html"><img src="img/boton_flecha.png"></a>
+            </button>
+        </div>
+        <div class="cirugias_menores">
+            <img src="img/iconservicio_3.png" alt="Cirugías menores">
+            <h3>Cirugías</h3>
+            <p>Más Información aquí</p>
+            <button>
+                <a href="cirugias_menores.html"><img src="img/boton_flecha.png"></a>
+                </button>
+        </div>
+        <div class="cuidado_dental">
+            <img src="img/iconservicio_4.png" alt="Cuidado dental">
+            <h3>Cuidado Dental</h3>
+            <p>Más Información aquí</p>
+            <button>
+                <a href="cuidado_dental.html"><img src="img/boton_flecha.png"></a>
+                </button>
+        </div>
+        <div class="productos">
+            <img src="img/iconservicio_5.png" alt="Productos">
+            <h3>Productos</h3>
+            <p>Más Información aquí</p>
+            <button>
+                <a href="productos.html"><img src="img/boton_flecha.png"></a>
+                </button>
+        </div>
+    </div>
+<div class="contenedor_padre2">
+<div>
+<img src="img/perros.png" alt="mascotas">
+</div>
+</div>
+
+
+
+
+
+
+<footer>
+        <div class="footer">
+        <div class="footer1">
+            <a href="index.html"><img src="img/Logo_footer.png" alt="Logo de PetCare"></a>
+        </div>
+        <div class="footer2">
+            
+            <a href="servicios.html">Servicios</a>
+            <a href="equipo_medico.html">Equipo_Medico</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="testimonios.html">Testimonios</a>
+        </div>
+        <div class="iconos_footer">
+            <a href="#"><img src="img/instagram_icon.png" alt="instagram" ></a>
+            <a href="#"><img src="img/whatsapp_icon.png" alt="whatsapp"></a>
+            <a href="#"><img src="img/facebook_icon.png" alt="facebook"></a>
+        </div>
+        <div class="parrafo_footer">
+            <p>©2024 PetCare - Todos los derechos de autor reservados - Sitio creado por "Daniel Quintero"</p>
+        </div>
+        </div>
+        
+        </footer>
+        
+
+
+</body>
+</html>
